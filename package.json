@@ -1,0 +1,14 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "web_error",
+  "main": "Web_Error.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "espress": "^0.0.0"
+  }
+}

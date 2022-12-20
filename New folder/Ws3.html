@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styleWs3.css">
+        <title>Insert_img</title>
+    </head>
+    <style>
+        img{
+            background-color: aquamarine;
+            border-radius: 30%;
+            padding: 0.2%;
+            margin: 10px;
+        }
+    </style>
+    <body >
+        <h1 style="text-align: center;">ตัวอย่างรูป</h1>
+        <div class="box img1">
+        <img src="img1.jpg" onmouseover="this.src='img2.png';"
+        onmouseout="this.src = 'img1.jpg';" width="200" height="200">
+        <img src="img2.png" onmouseover="this.src='img3.jpg';"
+        onmouseout="this.src = 'img2.png';" width="200" height="200">
+        <img src="img3.jpg" onmouseover="this.src='img4.png';"
+        onmouseout="this.src = 'img3.jpg';"width="200" height="200">
+        <img src="img4.png" onmouseover="this.src='img1.jpg';"
+        onmouseout="this.src = 'img4.png';"width="200" height="200">
+    </div>
+    </body>
+</html>
